@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TObject">
+    <Position X="5.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIIAAAAAAAAAgAQAAAQAAAACAAAAAAAIAAA=</HashCode>
+      <FileName>Tables\TObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TNomenclature">
+    <Position X="3.25" Y="2.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAgAAAAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Tables\TNomenclature.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TDocument">
+    <Position X="1" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YAEAEAAABAAAAgggAAAAoIEAAARAAACAAABEBAAICAA=</HashCode>
+      <FileName>Tables\TDocument.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="TCategoryDocument" />
+      <Property Name="TNomenclature" />
+      <Property Name="TObject" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TCategoryDocument">
+    <Position X="3.25" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAACAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Tables\TCategoryDocument.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArchiveDocs.Tables.ADDbContext">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgQAAAAAAAAAAAAAAEAAAEAECAAAAAAAAAAA=</HashCode>
+      <FileName>Tables\ADDbContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArchiveDocs.FileGenerator.FileGenerator">
+    <Position X="7.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>FileGenerator\FileGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArchiveDocs.HashCode">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAEAAAAAAAAGAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>HashCode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
